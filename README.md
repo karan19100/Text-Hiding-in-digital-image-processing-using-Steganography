@@ -3,9 +3,11 @@
 ## Table of Content
 
  1. Overview
- 3. Motivation
- 5. Technical-aspect
- 6. Technologies-used
+ 2. Motivation
+ 3. Technologies-used
+ 4. Workflow
+ 5. Algorithm
+ 6. Results
 
 ### Overview
 
@@ -30,7 +32,7 @@ In this project, we will be focussing on image-based steganography, i.e hiding s
 2. Every pixel contains three values: (red, green, blue) also known as RGB values.
 3. Every RGB value ranges from 0 to 255.
 
-<img src="images/workflow.png" width="500" >
+<img src="images/workflow.png" width="570" >
 
 ### Algorithm
 
@@ -65,19 +67,19 @@ and in ASCII, it represents the character H.
 Step 4:- Now, if the ninth value is even then we keep reading pixels three at a time, or otherwise, we stop. Since the ninth value is even, we repeat the above steps. We stop when the ninth value encountered is odd.
 As a result, we get our original message back which was Hii.
 
-### Result 
+### Results 
 
 #### Encoded the data into the Image :- 
 
-<img src="https://www.xda-developers.com/files/2017/01/androidinstantapps.png" width="500" >
+<img src="images/encoded.png" width="600" >
 
 #### Original and Encrypted Image :- 
 
-<img src="https://www.xda-developers.com/files/2017/01/androidinstantapps.png" width="500" >
+<img src="images/report_img.png" width="500" >
 
 #### Decoded the data in the image :-
 
-<img src="https://www.xda-developers.com/files/2017/01/androidinstantapps.png" width="500" >
+<img src="images/decoded" width="600" >
 
 
 ###  Made with &nbsp;❤️ by  [Karan Shah](https://github.com/karan19100)
