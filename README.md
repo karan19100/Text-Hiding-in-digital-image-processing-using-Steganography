@@ -23,24 +23,14 @@ Now a days Data privacy and data security are always on highest priority in the 
 <img target="_blank" src="https://repository-images.githubusercontent.com/5171600/28cb0300-7e53-11ea-86e8-ba321370c31a" width=120>
 
 
-### Project Folder Structure
-```
-DataAnalysis4GooglePlayStore
-                 |---- App Analysis system.ipynb (The code file for data analysis)
-                 |---- Report.html               (Report about the detail data)
-                 |---- main.py                   (code for generating report in html)
-                 |---- googleplaystore.csv          (data file)
-                 |---- README.md                   (readme file)
-```
-
 ### Workflow 
 
-n this project, we will be focussing on image-based steganography, i.e hiding secret data in an image. But before diving a little deeper into it, let’s look at what an image comprises of.
+In this project, we will be focussing on image-based steganography, i.e hiding secret data in an image. But before diving a little deeper into it, let’s look at what an image comprises of.
 1. Pixels are the building blocks of an image.
 2. Every pixel contains three values: (red, green, blue) also known as RGB values.
 3. Every RGB value ranges from 0 to 255.
 
-<img src="https://www.xda-developers.com/files/2017/01/androidinstantapps.png" width="500" >
+<img src="image/workflow.png" width="500" >
 
 ### Algorithm
 
