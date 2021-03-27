@@ -30,7 +30,7 @@ In this project, we will be focussing on image-based steganography, i.e hiding s
 2. Every pixel contains three values: (red, green, blue) also known as RGB values.
 3. Every RGB value ranges from 0 to 255.
 
-<img src="image/workflow.png" width="500" >
+<img src="images/workflow.png" width="500" >
 
 ### Algorithm
 
