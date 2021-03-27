@@ -59,6 +59,7 @@ While making the pixel values odd/even by doing +1 or -1, you should take care o
 #### Part 2) Decoding :-
 
 For decoding, we shall try to find how to reverse the previous algorithm that we used to encode data.
+
 Step 1:- Again, three pixels are read at a time. The first 8 RGB values give us information about the secret data, and the ninth value tells us whether to move forward or not. Read the first three pixels. (27, 64, 164), (248, 244, 194), (174, 246, 250)
 
 Step 2:- For the first eight values, if the value is odd, then the binary bit is 1, otherwise it is 0. Reading the first value:which is even, therefore the binary bit is Similarly, for 63, the binarybit is 1   164 it is 0 and for 26 This process continues until the eight RGB value.
