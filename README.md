@@ -1,5 +1,8 @@
 # Text-Hiding-in-digital-image-processing-using-Steganography
 
+
+<img src="images/front_img.png" width="500" >
+
 ## Table of Content
 
  1. Overview
@@ -69,17 +72,17 @@ As a result, we get our original message back which was Hii.
 
 ### Results 
 
-#### Encoded the data into the Image :- 
+### Encoded the data into the Image :- 
 
-<img src="images/encoded.png" width="600" >
+<img src="images/encoded.png" width="800" >
 
-#### Original and Encrypted Image :- 
+### Original and Encrypted Image :- 
 
 <img src="images/report_img.png" width="500" >
 
-#### Decoded the data in the image :-
+### Decoded the data in the image :-
 
-<img src="images/decoded" width="600" >
+<img src="images/decoded.png" width="800" >
 
 
 ###  Made with &nbsp;❤️ by  [Karan Shah](https://github.com/karan19100)
